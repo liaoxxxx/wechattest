@@ -5,9 +5,9 @@ return [
      * 账号基本信息，请从微信公众平台/开放平台获取
      */
     'app_id'  => 'wx00858ba20dbc4518',         // AppID
-    'secret'  => 'fa8a13b47deafe788d08e249330d1214',     // AppSecret
+    'secret'  => '7bc1f043012f3ecf5afbeaae38020143',     // AppSecret
     'token'   => 'liao993501756token',          // Token
-    'aes_key' => '',                    // EncodingAESKey，兼容与安全模式下请一定要填写！！！
+    'aes_key' => 'P1mHrUXK9PzxFGS5MZ1WhdXgp3YsWxYmCm18JclhAt0',                    // EncodingAESKey，兼容与安全模式下请一定要填写！！！
 
     /**
      * 指定 API 调用返回结果的类型：array(default)/collection/object/raw/自定义类名

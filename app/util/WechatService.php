@@ -1,7 +1,6 @@
 <?php
-declare (strict_types=1);
 
-namespace app\service;
+namespace app\util;
 
 use EasyWeChat\Factory;
 use EasyWeChat\OfficialAccount\Application;
@@ -43,7 +42,7 @@ class WechatService
     /**
      * @return Guard
      */
-    public function  getServer(): Guard
+    public function getServer(): Guard
     {
         return $this->wechatApp->server;
     }
@@ -55,6 +54,6 @@ class WechatService
     public function __construct(array $config)
     {
         $this->wechatApp = Factory::officialAccount($config);
-        $this->config=$config;
+        $this->config = $config;
     }
 }

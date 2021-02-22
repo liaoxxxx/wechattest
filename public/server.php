@@ -4,8 +4,8 @@ use EasyWeChat\Factory;
 
 $config = [
     'app_id' => 'wx3cf0f39249eb0xxx',
-    'secret' => 'f1c242f4f28f735d4687abb469072xxx',
-    'token' => 'liao993501756',
+    'secret' => 'P1mHrUXK9PzxFGS5MZ1WhdXgp3YsWxYmCm18JclhAt0',
+    'token' => 'liao993501756token',
     'response_type' => 'array',
     //...
 ];
